@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(CharacterController))]
+[RequireComponent(typeof(CharacterController))]//不要collider
 [RequireComponent(typeof(Rigidbody))]
 public class FPSPlayerController : MonoBehaviour {
 
